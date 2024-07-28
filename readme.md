@@ -41,7 +41,7 @@ This project is a MERN (MongoDB, Express, React, Node.js) stack application desi
    Create a `.env` file in the root of the `backend` directory and add the following:
 
    ```env
-   MONGO_URI=mongodb://localhost:27017/mern-challenge
+   MONGODB_URI=mongodb://localhost:27017/mern-challenge
    PORT=3000
    ```
 
