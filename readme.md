@@ -53,6 +53,32 @@ Start the server with the following command:
 npm start
 ```
 
+### API Endpoints
+
+#### 1. Init Endpoint:
+
+- `GET /api/init`: A GET request that seed the database.
+
+#### 2. Transactions Endpoint:
+
+- `GET /api/transactions`: A GET request that accepts month as required parameter and search, page and pageNumber as optional paramater and returns the transaction data of that month.
+
+#### 3. PieChart Endpoint:
+
+- `GET /api/pie-chart`: A GET request that accepts month as required parameter.
+
+#### 4. BarChart Endpoint:
+
+- `GET /api/bar-chart`: A GET request that accepts month as required parameter.
+
+#### 5. Statistics Endpoint:
+
+- `GET /api/statistics`: A GET request that accepts month as required parameter.
+
+#### 3. Combined Endpoint:
+
+- `GET /api/combined`: A GET request that accepts month as required parameter and return all the data of all the endpoints.
+
 ## Frontend
 
 ### Requirements
