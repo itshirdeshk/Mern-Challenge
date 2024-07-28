@@ -26,7 +26,7 @@ This project is a MERN (MongoDB, Express, React, Node.js) stack application desi
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/mern-challenge.git
+   git clone https://github.com/Mern-Challenge.git
    cd backend
    ```
 
